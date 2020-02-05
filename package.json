@@ -1,12 +1,12 @@
 {
-  "name": "webhook-echo-sample",
+  "name": "dialogflowusis",
   "version": "1.0.0",
-  "description": "Webhook echo sample",
+  "description": "dialogflowusis",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Sunil Syal",
+  "author": "Nalliappan ganeshan",
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4"
