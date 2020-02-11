@@ -18,9 +18,9 @@ restService.post("/echo", function(req, res) {
   if(req.body.queryResult &&
     req.body.queryResult.parameters &&
     req.body.queryResult.parameters.echoText){
-    if(req.body.queryResult.parameters.echoText.indexOf('apply leave') !== -1){
+    if(req.body.queryResult.parameters.echoText.indexOf('leave') !== -1){
       speech = 'leave_application';
-    }else if(req.body.queryResult.parameters.echoText.indexOf('apply leave') !== -1){
+    }else if(req.body.queryResult.parameters.echoText.indexOf('permission') !== -1){
       speech = 'permission_application';
     }
   }
